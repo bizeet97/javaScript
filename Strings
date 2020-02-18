@@ -1,0 +1,67 @@
+// Choose either one convention (double qoutes or single qoutes)
+var name = 'Bizeet';
+
+---------------------------------------------------------------------------
+exception cases-->
+var greeting = "It's great to see you!";-------> you can't use single qoutes as it will encounter a error
+
+another solution to solve the above error bu using escape character(\)-->
+var greeting ='It\'s great to see you!';
+
+more use cases of escape characters--->
+\0 --->null character
+
+Length property
+---------------
+var greeting = "It's great to see you!";
+greeting.length;//22
+
+String Methods
+--------------
+toUpperCase()
+toLowerCase()
+
+use case------>
+
+var greeting = "It's great to see you!";
+greeting;//content of the greeting variable
+
+var uppergreeting=greeting.toUpperCase();
+var x = 20;
+undefined
+var y = '12';
+undefined
+var z=14;
+undefined
+x == y;
+false
+x === y;
+false
+x !== y;
+true
+var y = '20';
+undefined
+x == y;
+true
+var greeting ='hello';
+undefined
+var angryAtGuest='get out of my house!';
+undefined
+var happywithGuest='thanks for coming over!';
+undefined
+var happyGreeting=greeting.concat(happywithGuest);
+undefined
+happyGreeting
+"hellothanks for coming over!"
+var happyGreeting=greeting.concat( happywithGuest);
+undefined
+happyGreeting
+"hellothanks for coming over!"
+var happyGreeting=greeting.concat( happywithGuest);
+undefined
+var newGreeting=greeting +' '+ happyGreeting
+undefined
+var newGreeting=greeting +' '+ happyGreeting;
+undefined
+newGreeting
+"hello hellothanks for coming over!"
