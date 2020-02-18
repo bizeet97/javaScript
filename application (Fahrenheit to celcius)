@@ -1,0 +1,24 @@
+Math.floor function
+-------------------
+
+math.floor(6.75);----> will map less than or equal to the no. provided
+
+math.ceil(6.75);-----> will map than greater or equal to.
+
+Math.round(6.75);-----> will round off the given number.
+
+Application
+------------
+
+var kelvinTemp=301; //tep in kelvin stored in kelvin
+
+var celciusTemp=kelvinTemp-273.15;
+
+var FahrenheitTemp=celciusTemp*(9/5)+32;
+
+FahrenheitTemp=Math.ceil(FahrenheitTemp)
+
+console.log('the temperature is ' + FahrenheitTemp + ' ' +'degrees fahrenheit');
+
+
+
